@@ -66,6 +66,7 @@ instance/
 .webassets-cache
 
 # Scrapy stuff:
+temp_auto_push.bat
 .scrapy
 
 # Sphinx documentation
@@ -135,3 +136,4 @@ ui/.eslintcache
 ui/yarn.lock
 
 notes.txt
+.gitignore
