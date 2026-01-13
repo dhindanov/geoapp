@@ -1,10 +1,11 @@
 ## Overview
+
 Sample React+Django+Postgres+Docker wepapp, wired together with a docker-compose file.
 Meant to enable one to quickly spin up a local dev environment that requires the aforementioned software stack.
 
 ## Caveats
 
-#### This app doesn't do anything practial or userful or clever
+#### This is a demo, the app doesn't do anything practial or userful or clever
 
 The objective is to demonstrate how to hook up a few containers together in a single step, emulating a very typical
 dev environment for creating webapps.
@@ -49,12 +50,3 @@ Use your own Google maps API key for GOOGLE_API_KEY or remove this line complete
 - `docker-compose up --build app`
 
 - Navigate to `http://localhost:8098` (if you didn't change the HOST_UI_PORT setting in `.env`).
-
-
-## TODO:
-
-Tests.
-
-Webpack prod bundle.
-
-`await` on fetches.

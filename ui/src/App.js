@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
 import LocationForm from './components/location';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 // TODO: add saving to and loading from local storage
 
